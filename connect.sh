@@ -1,0 +1,1 @@
+docker exec -it rowell-node10-docker_mynode_1 /bin/bash

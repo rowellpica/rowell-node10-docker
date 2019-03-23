@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mynode:
+    image: rowellpica/node10
+    environment:
+      - DISPLAY:":0"
+    volumes:
+      - ./build/:/hostdir
+    restart: on-failure
+
+volumes:
+  mynode:
